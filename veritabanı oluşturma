@@ -1,0 +1,15 @@
+CREATE DATABASE sirketDB ON PRIMARY
+(
+NAME= sirketDB_data,
+FILENAME = 'C:\sirketDB\sirketDBdata.mdf',
+SIZE = 8MB,
+MAXSIZE = unlimited,
+FILEGROWTH = 10%
+)
+LOG ON
+(
+NAME= sirketDB_log,
+FILENAME = 'C:\sirketDB\sirketDBlog.ldf',
+SIZE = 8MB,
+MAXSIZE = unlimited,
+FILEGROWTH = 10%
